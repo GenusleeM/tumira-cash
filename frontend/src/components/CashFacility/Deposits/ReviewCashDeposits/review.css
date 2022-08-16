@@ -1,0 +1,42 @@
+.newUserItem{
+    /* make sure here to mantain 2 things per row */
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+
+.orderNumber{
+    display: flex;
+}
+
+.myList{
+    display: block;
+
+}
+
+.orderDetailsContainer{
+    display: flex;
+    flex-direction: column;
+}
+.orderItemContainer{
+    display: flex;
+    width: 100%;
+    
+
+}
+.orderItemTitle{
+    margin-left: 5px;
+    width: 50%;
+    text-align: left;
+}
+.orderItem{
+    margin-left: 5px;
+    
+}
+.buttom-buttons{
+    display: flex;
+    justify-content: space-around;
+}

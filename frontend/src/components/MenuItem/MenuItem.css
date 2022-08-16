@@ -1,0 +1,17 @@
+.menuItemIcon{
+    width: 100%;
+}
+
+.menuItem {
+    width: 80%;
+    border-radius: 8;
+    margin-bottom: 8;
+    margin:5px
+
+}
+
+.menuItemActive{
+    background-color: #EBEBEC;
+    margin: 5px;
+
+}

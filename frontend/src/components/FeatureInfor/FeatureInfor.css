@@ -1,0 +1,26 @@
+.featured{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.featureItem{
+    flex: 1;
+    margin: 0px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: -6px 4px 83px -40px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -6px 4px 83px -40px rgba(0,0,0,0.75);
+    -moz-box-shadow: -6px 4px 83px -40px rgba(0,0,0,0.75);
+    background-color: white;
+    transition: transform .5s ease;
+}
+.featureItem:hover{
+    color: white;
+    transform: scale(1.1);
+    background-color: #9b59b6;
+}
+.featureContainer{
+    display: flex;
+    justify-content: space-between;
+}

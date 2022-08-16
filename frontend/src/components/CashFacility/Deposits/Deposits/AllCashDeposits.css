@@ -1,0 +1,47 @@
+    .depositList{
+        flex: 4;
+        height: 90vh;
+        flex-direction: col;
+        width: 95%;
+    
+    }
+    .addCashDeposit{
+        border: none;
+        border-radius: 10px;
+        padding: 5px 10px;
+        background-color: #9b59b6;
+        color:#ecf0f1;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+    .editCashDeposit{
+        border: none;
+        border-radius: 10px;
+        padding: 5px 10px;
+        background-color: #6ab04c;
+        font-size: 20px;
+        cursor: pointer;
+        color: #f7f1e3
+    }
+    .deleteDeposit{
+        color:red;
+        cursor: pointer;
+    }
+    .topPart{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .complete{
+        /* background-color: #e5faf2; */
+        color: #3bb077;
+    }
+    .cancelled{
+        /* background-color: #fff0f1; */
+        color:#d95087
+    }
+    .pending{
+        /* background-color: #ebf1fe; */
+        color:#2a7ade
+    }

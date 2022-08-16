@@ -1,0 +1,44 @@
+.navigationLogo{
+    width: 50%;
+    cursor: "pointer";
+}
+.navigationLogoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:10px;
+    margin: 10px;
+}
+.navigationDrawer{
+    width: 240;
+    border: none;
+    white-space: normal;
+    padding: 10px;
+    overflow-x: hidden;
+    position: relative;
+    height: 100vh;
+
+}
+.navigationDrawerCollapse{
+    width: 60px;
+    border: none;
+}
+
+.navigationList{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.navigationSpacer{
+    flex: 1;
+}
+
+.navigationToolBar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 8;
+}
+

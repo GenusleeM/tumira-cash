@@ -1,0 +1,189 @@
+.user1{
+    padding: 3px;
+    display: flex;
+    align-items: center;
+}
+.user1Option{
+    margin-right: 10px;
+}
+.userTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.addUser{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+.userContainer{
+    display: flex;
+    margin-top: 1px;
+}
+
+
+
+.userShow{
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+
+}
+
+.userUpdate{
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    margin-left: 20px;
+}
+
+.userShowTop{
+    display: flex;
+    align-items: center;
+}
+.userTop{
+    display:flex;
+    flex-direction: row;
+}
+.userNameTitle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.name{
+    font-weight: 600;
+}
+.nameTitle{
+    font-weight: 300;
+}
+.userShowDetails{
+    margin-top: 20px;
+}
+.userShowTitle{
+    font-size: 14px;
+    font-weight: 600;
+    color:lightgray;
+   
+}
+.userShowInfor{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color:#444
+}
+.userShowIcon{
+    font-size: 16px !important;
+}
+
+.userShowInfoTitle{
+    margin-left: 10px;
+}
+.userShowCurrency{
+    margin: 10px;
+}
+
+
+
+
+/* right side */
+
+.userUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.userEditTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.userUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.userUpdateItem>label{
+    /* every  label inside  the userUpdateItem */
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.userUpdateInput{
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid grey;
+}
+
+.rightProfile{
+    display: flex;
+    flex-direction: row;
+}
+.chooseFile{
+    display: none;
+}
+
+
+.myprofileImage{
+    width: 100px;
+    width: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.myAvator{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.chooseFileIcon{
+    padding-top: 5px;
+}
+.userUpdateUpload{
+    display: flex;
+    align-items: center;
+}
+.userUpdateRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.userUpdateButton{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: darkblue;
+    color:white;
+    font-weight: 600;
+}
+
+/* balances */
+.balancecontainer{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #E6E6E6;
+    border-radius: 2px;
+    justify-content: space-evenly;
+    margin: 3xp;
+
+}
+.balanceitem{
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    margin: 5px;
+   
+
+}
+.balanceitem_with_lft_bd{
+     border-right: 1px solid #CEE5D0;
+
+}

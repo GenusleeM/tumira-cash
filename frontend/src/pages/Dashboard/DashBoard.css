@@ -1,0 +1,21 @@
+.rootApp1{
+    display: flex;
+    /* flex-direction: column; */
+    margin-left: 200px;
+    /* background-color: blue; */
+
+}
+
+.child1{
+    flex: 1;
+
+
+}
+.fetqured{
+    margin-bottom: 20px;
+}
+.homeWidgets{
+    display: flex;
+    margin: 20px;
+
+}

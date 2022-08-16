@@ -1,0 +1,41 @@
+.settingsmainpage{
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.widgets{
+    display: flex;
+    margin: 20px;
+    justify-content: space-evenly;
+}
+
+.topButtons{
+    display: flex;
+    margin-left: 75%;
+    /* justify-content:space-evenly; */
+}
+
+.largeWidget{
+    margin-right: 40px;
+    width: 2000px;
+}
+.smallWidget{
+    margin-left: 40px;
+    width: 2000px;
+}
+
+.btnAdd{
+width: 100px;
+
+}
+
+.btn{
+    height: 40px;
+    width: 100px;
+    margin-right: 10px;
+    background-color: blue;
+}
+.btn1{
+    margin-left: 20px;
+}
