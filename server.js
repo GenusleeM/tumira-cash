@@ -32,7 +32,7 @@ app.use('/cash',loadCashDeposits_routes)
 app.use('/cashReports',cashReport_Routes)
 app.use('/cashCharge',cash_charges_Routes)
 app.use('/cashOrderCounter',cashCounterRoutes)
-
+const __dirname = path.resolve();
 app.use(express.static(path.join(__dirname, "/frontend/build")));
 
 app.get('*', (req, res) => {
